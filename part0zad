@@ -67,3 +67,10 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: Browser adds the new note to the list<br>without reloading the page
+
+
+Zwykła strona (MPA):
+Za każdym kliknięciem przeglądarka pobiera nowy HTML z serwera → strona się przeładowuje.
+
+SPA (Single Page App):
+Strona ładuje się raz, a potem dane pobierane są przez JavaScript → brak przeładowań, działa szybciej i płynniej.
